@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="8dp">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/photoMovie"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:scaleType="centerInside"-->
+<!--        android:adjustViewBounds="true"-->
+<!--        android:src="@drawable/ic_launcher_background"/>-->
+
+    <LinearLayout
+        android:id="@+id/ll_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp" >
+
+        <ImageView
+            android:id="@+id/photoMovie"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:id="@+id/nameMovie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+<!--        <TextView-->
+<!--            android:id="@+id/descriptionMovie"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="test"-->
+<!--            android:textColor="@android:color/black"-->
+<!--            android:textSize="16sp"/>-->
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
